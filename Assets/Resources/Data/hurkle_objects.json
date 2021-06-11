@@ -1,0 +1,56 @@
+{
+	"Player": {
+		"Program": {
+			"id": "PlayerFunction"
+		},
+		"Player": { },
+		"Body": {
+			"invMass": 0.01
+		},
+		"Fixture": {
+			"size": {
+				"x": 16,
+				"y": 16
+			}
+		}
+	},
+	
+	"Enemy": {
+		"Program": {
+			"id": "RunningFunction"
+		},
+		"Enemy": { },
+		"Body": {
+			"invMass": 0.01
+		},
+		"Fixture": {
+			"size": {
+				"x": 16,
+				"y": 16
+			}
+		}
+	},
+
+	"Bullet": {
+		"Body": {
+			"invMass": 0.01
+		},
+		"Fixture": {
+			"size": {
+				"x": 4,
+				"y": 4
+			}
+		}
+	},
+
+	"Tilemap": {
+		"Tilemap": { },
+		"Body": {
+			"invMass": 0
+		},
+		"Fixture": { }
+	}
+	
+}
+
+

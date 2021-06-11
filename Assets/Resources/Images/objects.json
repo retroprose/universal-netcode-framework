@@ -1,0 +1,403 @@
+{
+    "v0_22": {
+        "RawValue": 944892800
+    },
+    "v0_1": {
+        "RawValue": 429496736
+    },
+    "v0_04": {
+        "RawValue": 171798688
+    },
+    "v0_02333333333333333": {
+        "RawValue": 100215904
+    },
+    "v0_00005": {
+        "RawValue": 214748
+    },
+    "v0_02": {
+        "RawValue": 85899344
+    },
+    "v0_2": {
+        "RawValue": 858993472
+    },
+    "v0_15": {
+        "RawValue": 644245120
+    },
+    "v0_003": {
+        "RawValue": 12884902
+    },
+    "v0_3": {
+        "RawValue": 1288490240
+    },
+    "v0_03": {
+        "RawValue": 128849016
+    },
+    "v0_062": {
+        "RawValue": 266287968
+    },
+    "v0_25": {
+        "RawValue": 1073741824
+    },
+    "v0_01111111111111111": {
+        "RawValue": 47721860
+    },
+    "v0_00833333333333333": {
+        "RawValue": 35791396
+    },
+    "v1o100": {
+        "RawValue": 42949672
+    },
+    "EnemyCount": 11,
+    "Objects": {
+        "ShotCleaner": {
+            "components": {
+                "m_value": 141
+            },
+            "objectType": 6,
+            "body": {
+                "position": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "velocity": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "size": {
+                    "x": {
+                        "RawValue": 4123168604160
+                    },
+                    "y": {
+                        "RawValue": 2319282339840
+                    }
+                }
+            },
+            "animator": {
+                "frame": 0,
+                "count": 0
+            },
+            "player": {
+                "slot": 0,
+                "delayFire": 0,
+                "damage": 0
+            },
+            "enemy": {
+                "target": {
+                    "generation": 0,
+                    "index": 0
+                },
+                "direction": 0,
+                "counter": 0,
+                "delayFire": 0
+            }
+        },
+        "Player": {
+            "components": {
+                "m_value": 189
+            },
+            "objectType": 0,
+            "body": {
+                "position": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "velocity": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "size": {
+                    "x": {
+                        "RawValue": 68719476736
+                    },
+                    "y": {
+                        "RawValue": 42949672960
+                    }
+                }
+            },
+            "animator": {
+                "frame": 24,
+                "count": 0
+            },
+            "player": {
+                "slot": 0,
+                "delayFire": 0,
+                "damage": 0
+            },
+            "enemy": {
+                "target": {
+                    "generation": 0,
+                    "index": 0
+                },
+                "direction": 0,
+                "counter": 0,
+                "delayFire": 0
+            }
+        },
+        "Enemy": {
+            "components": {
+                "m_value": 221
+            },
+            "objectType": 1,
+            "body": {
+                "position": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "velocity": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "size": {
+                    "x": {
+                        "RawValue": 68719476736
+                    },
+                    "y": {
+                        "RawValue": 42949672960
+                    }
+                }
+            },
+            "animator": {
+                "frame": 24,
+                "count": 0
+            },
+            "player": {
+                "slot": 0,
+                "delayFire": 0,
+                "damage": 0
+            },
+            "enemy": {
+                "target": {
+                    "generation": 0,
+                    "index": -1
+                },
+                "direction": 1,
+                "counter": 0,
+                "delayFire": 0
+            }
+        },
+        "Bullet": {
+            "components": {
+                "m_value": 157
+            },
+            "objectType": 2,
+            "body": {
+                "position": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "velocity": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 68719476736
+                    }
+                },
+                "size": {
+                    "x": {
+                        "RawValue": 51539607552
+                    },
+                    "y": {
+                        "RawValue": 85899345920
+                    }
+                }
+            },
+            "animator": {
+                "frame": 26,
+                "count": 0
+            },
+            "player": {
+                "slot": 0,
+                "delayFire": 0,
+                "damage": 0
+            },
+            "enemy": {
+                "target": {
+                    "generation": 0,
+                    "index": 0
+                },
+                "direction": 0,
+                "counter": 0,
+                "delayFire": 0
+            }
+        },
+        "BadBullet": {
+            "components": {
+                "m_value": 157
+            },
+            "objectType": 3,
+            "body": {
+                "position": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "velocity": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": -34359738368
+                    }
+                },
+                "size": {
+                    "x": {
+                        "RawValue": 30064771072
+                    },
+                    "y": {
+                        "RawValue": 30064771072
+                    }
+                }
+            },
+            "animator": {
+                "frame": 27,
+                "count": 0
+            },
+            "player": {
+                "slot": 0,
+                "delayFire": 0,
+                "damage": 0
+            },
+            "enemy": {
+                "target": {
+                    "generation": 0,
+                    "index": 0
+                },
+                "direction": 0,
+                "counter": 0,
+                "delayFire": 0
+            }
+        },
+        "Boom": {
+            "components": {
+                "m_value": 157
+            },
+            "objectType": 4,
+            "body": {
+                "position": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "velocity": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "size": {
+                    "x": {
+                        "RawValue": 60129542144
+                    },
+                    "y": {
+                        "RawValue": 60129542144
+                    }
+                }
+            },
+            "animator": {
+                "frame": 37,
+                "count": 0
+            },
+            "player": {
+                "slot": 0,
+                "delayFire": 0,
+                "damage": 0
+            },
+            "enemy": {
+                "target": {
+                    "generation": 0,
+                    "index": 0
+                },
+                "direction": 0,
+                "counter": 0,
+                "delayFire": 0
+            }
+        },
+        "PlayerBoom": {
+            "components": {
+                "m_value": 157
+            },
+            "objectType": 5,
+            "body": {
+                "position": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "velocity": {
+                    "x": {
+                        "RawValue": 0
+                    },
+                    "y": {
+                        "RawValue": 0
+                    }
+                },
+                "size": {
+                    "x": {
+                        "RawValue": 94489280512
+                    },
+                    "y": {
+                        "RawValue": 90194313216
+                    }
+                }
+            },
+            "animator": {
+                "frame": 30,
+                "count": 0
+            },
+            "player": {
+                "slot": 0,
+                "delayFire": 0,
+                "damage": 0
+            },
+            "enemy": {
+                "target": {
+                    "generation": 0,
+                    "index": 0
+                },
+                "direction": 0,
+                "counter": 0,
+                "delayFire": 0
+            }
+        }
+    }
+}

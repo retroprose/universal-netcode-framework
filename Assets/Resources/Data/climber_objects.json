@@ -1,0 +1,100 @@
+{
+
+	"Physics": {
+		"Overlap": 1.0,
+		"Bounce": 1.0,
+		"Space": 0.005,
+		"Bias": 0.6,
+		"Extend": 1.0,
+		"Iterations": 10
+	},
+	
+	"Objects": {
+		"Player": {
+			"Program": {
+				"id": "PlayerFunction"
+			},
+			"Player": { },
+			"Body": {
+				"invMass": 0.01
+			},
+			"Fixture": {
+				"size": {
+					"x": 16,
+					"y": 16
+				}
+			}
+		},
+		
+		"Enemy": {
+			"Program": {
+				"id": "RunningFunction"
+			},
+			"Enemy": { },
+			"Body": {
+				"invMass": 0.01
+			},
+			"Fixture": {
+				"size": {
+					"x": 16,
+					"y": 16
+				}
+			}
+		},
+
+		"Bullet": {
+			"Body": {
+				"invMass": 0.01
+			},
+			"Fixture": {
+				"size": {
+					"x": 4,
+					"y": 4
+				}
+			}
+		},
+		
+		"Grenade": {
+			"Program": {
+				"id": "GrenadeFunction",
+				"data": 50
+			},
+			"Body": {
+				"invMass": 0.01
+			},
+			"Fixture": {
+				"size": {
+					"x": 8,
+					"y": 8
+				}
+			}
+		},
+		
+		"Explosion": {
+			"Program": {
+				"id": "DestroyFunction"
+			},
+			"Body": {
+				"invMass": 0.0
+			},
+			"Fixture": {
+				"size": {
+					"x": 128,
+					"y": 128
+				}
+			}
+		},
+
+		"Tilemap": {
+			"Tilemap": { },
+			"Body": {
+				"invMass": 0
+			},
+			"Fixture": { }
+		}
+		
+	}
+
+}
+
+
